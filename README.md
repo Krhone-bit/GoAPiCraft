@@ -1,5 +1,5 @@
 # GoAPICraft
-Este es un proyecto de prueba de concepto (POC) para una API RESTful en Go utilizando Echo, Go Swagger y Air.
+This is a proof of concept (POC) for a RESTful API in Go using Echo, Go Swagger, and Air.
 
 ## Installation 
 - [Go](https://go.dev/doc/install) (1.21.0)
