@@ -1,0 +1,81 @@
+##############
+# Original #
+##############
+
+# Environment file
+.env
+
+# directory structure
+bin/*
+pkg/*
+!.gitkeep
+
+# goop - go package manager
+.vendor
+
+#############################
+# $ gibo Go JetBrains OSX #
+#############################
+
+### [Go.gitignore](https://github.com/github/gitignore)
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*. [568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+*.exe
+*.test
+*.prof
+
+### [JetBrains.gitignore](https://github.com/github/gitignore)
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+
+/*.iml
+
+## Directory-based project format:
+.idea/
+
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+out/
+
+### [OSX.gitignore](https://github.com/github/gitignore)
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Temporal Files
+tmp/
+
+# Swagger generic files
+docs/
